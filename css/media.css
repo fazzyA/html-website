@@ -1,0 +1,45 @@
+.title {
+ color: red;
+ font-size: 36px;
+}
+@media (max-width: 500px) {
+    .title {
+        color: blue;
+        font-size: 28px;
+
+    }
+}
+@media (max-width: 600px) {
+    .title {
+        color: blue;
+        font-size: 28px;
+
+    }
+}
+@media (max-width: 768px) {
+    .title {
+        color: blue;
+        font-size: 28px;
+
+    }
+}
+@media (max-width: 992px) {
+    .title {
+        color: blue;
+        font-size: 28px;
+
+    }
+}
+@media (min-width: 1200px) {
+    .title {
+        color: blue;
+        font-size: 28px;
+
+    }
+}
+
+@media print {
+    .title {
+        color: rgb(102, 9, 96);
+    }
+}

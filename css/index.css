@@ -1,0 +1,127 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+/* Main div */
+.main{
+    display: flex;
+    flex-wrap:wrap; 
+}
+
+/* Sub div 1 */
+.subclass1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 520px;
+    height:180px;
+    margin: 13% 0% 0% 9%;
+    /* background-color: aquamarine; */
+}
+.img1{
+    width:300px;
+}
+.sub1-para{
+    font-size: 28px;
+    font-family:  sans-serif;
+    margin:0px;
+    margin-left:5%;
+}
+
+/* Sub div 2 */
+.subclass2{
+    display: flex;
+    flex-direction: column;
+    margin: 10.5% 0% 0% 8.5% ;
+}
+/* sub div 1 of sub div 2 */
+.subclass21{
+    background-color:#fff;
+    border-radius: 2px;
+    margin: 0% 0% 3% 0%;
+    padding: 5% 4% 4% 4%;
+    height:320px;
+    width:370px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, .1);
+}
+.input-tag{
+    width: 350px;
+    height: 45px;
+    margin-bottom: 3%;
+    padding-left:4%;
+    font-size:18px;
+    border-radius: 5px;
+    border:1px solid grey;
+    outline:none;  /*Remove defult border when clicked */
+}
+.input-tag:focus{
+    border: 1px solid  #1877f2;
+    box-shadow:0 0 3px #1877f2;
+}
+
+.input-tag::placeholder{
+    color:grey;
+}
+
+.input-tag:focus::placeholder{
+    color:rgb(189, 186, 186);
+}
+.log-btn{
+    width: 360px;
+    height: 47px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-family: Helvetica, sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    margin-top: 1%;
+    cursor:pointer;
+    background-color: #1877f2;
+}
+.forgot{
+    width: 360px;
+    height: 22px;
+    font-family:  Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 5% 0% 4% 0%;
+    font-size: 14px;
+}
+.forgot a{
+    text-decoration:none;
+    color: #1877f2;
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+.create-btn {
+    width: 190px;
+    height: 49px;
+    color: #fff;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-family: Helvetica, Arial,sans-serif;
+    font-size:17px;
+    font-weight:bold;
+    margin: 5% 5% 4% 25%;
+    cursor:pointer;
+}
+.create-btn:hover{
+    background-color: #24a10b;
+}
+/* sub div 2 of sub div 2 */
+.sub22-para{
+    font-family:  Helvetica,Arial, sans-serif;
+    font-size: 13px;
+    margin: 4% 0% 0% 15%;
+}
+.sub22-para span{
+    font-weight: bold;
+}
